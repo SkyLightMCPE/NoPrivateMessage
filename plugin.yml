@@ -1,0 +1,15 @@
+name: NoPrivateMessage
+main: NPM\Main
+version: 0.0.3
+api: [2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4, 3.0.0-ALPHA5]
+author: SamyR0
+website: https://github.com/SamyR0
+commands:
+ npm:
+  description: "Dont receive pm"
+  usage: "/npm"
+  permission: npm
+permissions:
+  npm:
+    description: "allow the npm command"
+    default: op
